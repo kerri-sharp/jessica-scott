@@ -12,38 +12,27 @@
     <meta name="expires" content="never" />
     <meta name="distribution" content="global" />
     <meta name="robots" content="index,follow" />
-    <meta name="image" content="img/meta.png" />
+    <meta name="image" content="https://www.jessica.scot/img/meta-redesign.png" />
     <meta itemprop="name" content="Jessica Scott" />
     <meta itemprop="description" content="A little bit about me." />
-    <meta itemprop="image" content="img/meta.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/icons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="img/icons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="img/icons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="img/icons/favicon-128.png" sizes="128x128" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta itemprop="image" content="https://www.jessica.scot/img/meta-redesign.png" />
+    <link rel="icon" href="favicon-redesign.ico" sizes="16x16 32x32 48x48" />
     <meta name="application-name" content="Jessica Scot" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="img/icons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="img/icons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="img/icons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="img/icons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="img/icons/mstile-310x310.png" />
-    <meta name="og:title" content="Jessica Scott" />
-    <meta name="og:description" content="A little bit about me." />
-    <meta name="og:image" content="img/social.png" />
-    <meta name="og:url" content=" />
-    <meta name="og:site_name" content="Jessica Scott" />
-    <meta name="og:locale" content="en_GB" />
-    <meta name="og:type" content="website" />
+    <meta property="og:title" content="Jessica Scott" />
+    <meta property="og:description" content="A little bit about me." />
+    <meta property="og:image" content="https://www.jessica.scot/img/social-redesign.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Hello, I'm Jess. Thanks for visiting." />
+    <meta property="og:url" content="https://www.jessica.scot/" />
+    <meta property="og:site_name" content="Jessica Scott" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jessica Scott" />
+    <meta name="twitter:description" content="A little bit about me." />
+    <meta name="twitter:image" content="https://www.jessica.scot/img/social-redesign.png" />
+    <meta name="twitter:image:alt" content="Hello, I'm Jess. Thanks for visiting." />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
@@ -60,7 +49,6 @@
       h2,
       h3,
       p,
-      ul,
       figure {
         margin: 0;
         padding: 0;
@@ -121,13 +109,6 @@
         padding: 4rem 0;
       }
 
-      header .logo {
-        display: block;
-        width: 64px;
-        height: auto;
-        margin-bottom: 2rem;
-      }
-
       header h1 {
         font-size: 3rem;
       }
@@ -136,10 +117,6 @@
         margin-top: 0.75rem;
         font-size: 1.1rem;
         color: #4a4a4a;
-      }
-
-      header .button {
-        margin-top: 2rem;
       }
 
       h2 {
@@ -159,27 +136,20 @@
         margin-bottom: 1.5rem;
       }
 
+      p + figure {
+        margin-top: 1.5rem;
+      }
+
+      figure:last-child {
+        margin-bottom: 0;
+      }
+
       figure img {
         display: block;
         width: 100%;
         max-width: 260px;
         height: auto;
         border-radius: 8px;
-      }
-
-      .button {
-        display: inline-block;
-        border: 2px solid #862d4f;
-        border-radius: 999px;
-        padding: 0.7rem 1.75rem;
-        color: #862d4f;
-        font-weight: 700;
-        text-decoration: none;
-      }
-
-      .button:hover {
-        background-color: #862d4f;
-        color: #faf7f2;
       }
 
       .testimonials {
@@ -196,21 +166,6 @@
         color: #4a4a4a;
       }
 
-      ul {
-        margin: 0;
-        padding-left: 1.25rem;
-      }
-
-      ul li + li {
-        margin-top: 0.4rem;
-      }
-
-      small {
-        display: block;
-        margin-top: 1rem;
-        color: #4a4a4a;
-      }
-
       footer .container {
         display: flex;
         flex-wrap: wrap;
@@ -219,6 +174,10 @@
 
       footer p {
         margin-bottom: 0;
+      }
+
+      footer .back-to-top {
+        margin-left: auto;
       }
 
       footer a {
@@ -242,89 +201,90 @@
   <body>
     <header id="introduction">
       <div class="container">
-        <img src="img/waves/waveillo-dark-pink.svg" class="logo" alt="" />
+        <figure>
+          <img
+            src="img/jessica-station.jpg"
+            width="780"
+            height="1040"
+            alt="Jessica takes a selfie on a train station platform. She has shoulder-length dark hair and is wearing a pale yellow t-shirt and a gold necklace."
+          />
+        </figure>
 
         <h1>Hello, I'm Jess.</h1>
-        <p class="tagline">I currently live in Somerset, England.</p>
-
-        <a href="#about" class="button">Find out how I can help you</a>
+        <p class="tagline">
+          Thanks for visiting. Here you can find out more about me, what it's like to work with me, and what I'm
+          passionate about.
+        </p>
       </div>
     </header>
 
     <section id="about">
       <div class="container">
-        <figure>
-          <img
-            src="img/jessica-3.jpg"
-            alt="Jessica is pictured looking towards the camera. She is wearing a black polka-dot dress and has a bow in her hair."
-          />
-        </figure>
+        <h2>About me</h2>
 
         <p>
-          I'm Director of Communication and Connection at
-          <a href="https://thinkproductive.co.uk/" target="_blank">Think Productive</a>, where I'm passionate about
-          championing a fair, inclusive, and trusting team environment.
-        </p>
-
-        <p>
-          Amongst my colleagues, I make it my mission to always champion well-being and work-life balance and I love
-          making people feel appreciated by shouting about their accomplishments.
-        </p>
-
-        <p>
-          In my personal life, I love spending time with the people I love, cooking, and musical theatre. I have an
-          unhealthy obsession with star signs (I'm an Aries) and I'll try to guess your star sign within an hour of
-          meeting you!
+          I'm the Director of Communication &amp; Connection at
+          <a href="https://thinkproductive.co.uk/" target="_blank">Think Productive</a>. But what does that actually
+          mean? It means I spend most of my days spinning lots of plates, working on different projects and working
+          across our global teams. I lead all of our marketing efforts, work alongside our brilliant MD to keep the ship
+          sailing, and make sure our global licensees have everything they need to succeed.
         </p>
       </div>
     </section>
 
-    <section id="leadership">
+    <section id="values">
       <div class="container">
-        <h2>On Leadership</h2>
-
-        <figure>
-          <img
-            src="img/jessica.jpg"
-            alt="Jessica is pictured looking off to the side of the camera. She is wearing a black polka-dot dress and has a bow in her hair."
-          />
-        </figure>
+        <h2>My values</h2>
 
         <p>
-          I have two brilliant women to thank for my interest in becoming a workplace Leader and for shaping my career.
+          <strong>Fairness</strong> matters more to me than almost anything else. How decisions get made, how people
+          are treated, how kudos gets shared.
         </p>
 
         <p>
-          First of all,
-          <a href="https://www.linkedin.com/in/rebecca-goodger-aa37291a/" target="_blank">Rebecca Goodger</a> at
-          <strong>Qualifa</strong> who encouraged me to apply for my first Team Leader position when I was 17, as she
-          saw something in me that I didn't.
+          <strong>Directness</strong> is important to me. I don't beat around the bush, and I'd rather have an
+          uncomfortable conversation than a superficial one.
         </p>
 
         <p>
-          Secondly,
-          <a href="https://www.linkedin.com/in/elenathinkproductive/" target="_blank">Elena Kerrigan</a> at
-          <strong>Think Productive</strong>, who has been mentoring me since I joined the company to be the best
-          version of myself that I can be, and always encourages me to push myself further.
+          <strong>Efficiency</strong> is my superpower. I like things running smoothly, without any clunkiness.
+        </p>
+      </div>
+    </section>
+
+    <section id="working-with-me">
+      <div class="container">
+        <h2>What it's like working with me</h2>
+
+        <p>
+          I like getting shit done. You'll always know where you stand with me, and how I feel about a decision or
+          direction. I'm not stubborn; I know when to die on a hill and when to step aside, but I like to make sure
+          everyone's been heard and considered.
         </p>
 
         <p>
-          I've also always been keen to lead side projects alongside my full-time job. Most notably I created
-          <strong>Jess &amp; Josh Cook</strong>, which was a food blog, cafe and catering business. I love writing and
-          I love cooking for other people, so this was a no-brainer!
+          I really care about people feeling appreciated. Appreciation goes a long way, and when people feel
+          appreciated, they care more about the work they do.
         </p>
+      </div>
+    </section>
+
+    <section id="passions">
+      <div class="container">
+        <h2>What I'm passionate about</h2>
 
         <p>
-          Alongside our CEO at Think Productive, I also wrote an eCourse for our membership site on
-          <em>"How to Manage a Side Hustle"</em>, so if that's something that interests you,
-          <a href="#contact">drop me an email</a> and I can get it over to you.
+          I'm a new mum (can you still say that with a toddler?!), so I really care about motherhood, mums being
+          supported in the workplace (and outside of it), work-life balance and self-care. I volunteer with local
+          charity <a href="https://www.fromebirthtalk.org.uk/" target="_blank">Frome Birth Talk</a>, who do excellent
+          work supporting new parents with free and low-cost counselling, which I have used myself.
         </p>
       </div>
     </section>
 
     <section id="testimonials">
       <div class="container">
-        <h2>What do other people say?</h2>
+        <h2>What other people say</h2>
 
         <div class="testimonials">
           <div class="testimonial">
@@ -370,95 +330,44 @@
       </div>
     </section>
 
-    <section id="writing">
+    <section id="weekends">
       <div class="container">
-        <h2>My writing</h2>
-
-        <figure>
-          <img
-            src="img/jessica-2.jpg"
-            alt="Jessica is pictured looking down off camera. She is wearing a black polka-dot dress and has a bow in her hair."
-          />
-        </figure>
+        <h2>What I get up to at the weekend</h2>
 
         <p>
-          I'm currently trying my hand at writing my first book, so if you have any tips for a newbie, please send them
-          my way!
+          In my downtime, I love hanging out with my daughter. We'll usually be at the farm or soft play, and we'll
+          definitely find time for a babyccino or two. I also love spending time with my friends and family, eating,
+          drinking, seeing shows and having fun!
         </p>
-
-        <p>Until then, you can take a look at some of my previous articles here:</p>
-
-        <ul>
-          <li>
-            <a href="https://thinkproductive.co.uk/online-workshops-lessons/" target="_blank"
-              >Delivering Online Workshops</a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/pulse/keys-motivating-remote-team-jessica-scott/" target="_blank"
-              >The keys to motivating a remote team</a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/pulse/making-space-deep-thought-jessica-scott/" target="_blank"
-              >Making space for deep thought</a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/pulse/what-makes-good-leader-jessica-scott/" target="_blank"
-              >What makes a Good Leader?</a
-            >
-          </li>
-          <li>
-            <a href="https://citygirlnetwork.com/magazine/dealing-anxiety-workplace" target="_blank"
-              >Dealing With Anxiety In The Workplace</a
-            >
-          </li>
-          <li>
-            <a href="https://thinkproductive.co.uk/how-i-stay-productive-jessica-scott/" target="_blank"
-              >How I Stay Productive</a
-            >
-          </li>
-          <li>
-            <a href="https://thinkproductive.co.uk/getting-back-on-track-after-a-bad-month/" target="_blank"
-              >Getting Back on Track After a Bad Month</a
-            >
-          </li>
-          <li>
-            <a href="https://thinkproductive.co.uk/is-pen-and-paper-dead/" target="_blank">Is Pen and Paper Dead?</a>
-          </li>
-          <li>
-            <a href="https://thinkproductive.co.uk/how-to-wrap-up-productively-before-your-holiday/" target="_blank"
-              >How to Wrap up Productively Before Your Holiday</a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/pulse/working-from-home-keeping-your-sanity-jessica-scott/" target="_blank"
-              >Working From Home &amp; Keeping Your Sanity</a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/pulse/look-productivity-ninja-wellbeing-jessica-scott/" target="_blank"
-              >A look at Productivity Ninja wellbeing</a
-            >
-          </li>
-        </ul>
       </div>
     </section>
 
     <section id="contact">
       <div class="container">
-        <h2>Let's talk!</h2>
+        <h2>LinkedIn</h2>
 
-        <p><a href="mailto:jessielouisescott@gmail.com">jessielouisescott@gmail.com</a></p>
+        <p>
+          If you want to stay in touch, you can
+          <a href="https://www.linkedin.com/in/jesslouisescott/" target="_blank">connect with me on LinkedIn</a>.
+        </p>
+
+        <figure>
+          <img
+            src="img/jessica-seaside.jpg"
+            width="780"
+            height="1040"
+            alt="Jessica takes a selfie on a sunny street leading down to the sea. She has wavy auburn hair and is wearing a pink floral top."
+          />
+        </figure>
       </div>
     </section>
 
     <footer>
       <div class="container">
-        <p>2026 &copy; Jessica Scott</p>
-        <p><a href="#introduction">Back to the top</a></p>
-        <p>Website by <a href="//razorsharp.digital" target="_blank">Razor Sharp</a></p>
+        <p>
+          2026 &copy; Jessica Scott. Website by <a href="//razorsharp.digital" target="_blank">Razor Sharp</a>
+        </p>
+        <p class="back-to-top"><a href="#introduction">Back to the top</a></p>
       </div>
     </footer>
   </body>
